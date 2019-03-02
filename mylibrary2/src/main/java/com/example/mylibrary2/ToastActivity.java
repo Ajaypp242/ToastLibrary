@@ -23,7 +23,7 @@ public class ToastActivity extends AppCompatActivity {
 
     public  void startActivityChat (Context context){
 
-        Intent i= new Intent(ToastActivity.this ,ChatActivity.class);
+        Intent i= new Intent(context ,ChatActivity.class);
         ((Activity)context). startActivity(i);
 
     }
